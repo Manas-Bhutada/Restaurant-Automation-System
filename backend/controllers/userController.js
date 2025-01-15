@@ -31,7 +31,7 @@ res.json({success:false,message:"error"})
 }
 
 const createToken =(id) =>{
-    return jwt.sign({id},process.env.JWT_sECRET)
+    return jwt.sign({id},process.env.JWT_SECRET)
 }
 
 //register user agar pehele se nhi ho to
